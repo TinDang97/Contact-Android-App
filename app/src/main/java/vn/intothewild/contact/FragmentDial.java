@@ -493,7 +493,8 @@ public class FragmentDial extends Fragment implements  View.OnClickListener{
         }
         cursor = getActivity().getContentResolver().query(uri, null, null, null, CallLog.Calls.DATE +" DESC");
 
-        if(cursor != null) {
+        if(cursor != null)
+            if(cursor.getCount() != 0){
             cursor.moveToFirst();
             String type = cursor.getString(cursor.getColumnIndex(CallLog.Calls.TYPE));
             final String number2String = cursor.getString(cursor.getColumnIndex(CallLog.Calls.NUMBER));
