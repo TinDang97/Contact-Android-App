@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">#fafafa</item>
+        <item name="android:textColor">#1e1e1e</item>
+        <item name="android:popupCharacters">#333333</item>
+        <item name="android:actionMenuTextColor">#ffffff</item>
+    </style>
+
+    <style name="AppTheme.editInput" parent="Widget.Design.TextInputLayout">
+        <item name="android:textColor">#c7c7c7</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="AppTheme.addNew" parent="AppTheme" >
+        <item name="colorPrimary">#43a047</item>
+        <item name="colorPrimaryDark">#353535</item>
+        <item name="android:textColorPrimary">#4e4e4e</item>
+    </style>
+
+    <style name="AppTheme.FullInfo" parent="AppTheme" >
+        <item name="colorPrimary">#FF595A5C</item>
+        <item name="colorPrimaryDark">#FF595A5C</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="Base.ThemeOverlay.AppCompat.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SplashScreen" parent="AppTheme">
+        <item name="android:background">@drawable/splash_screen</item>
+    </style>
+</resources>
